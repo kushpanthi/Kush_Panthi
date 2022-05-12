@@ -1,0 +1,1401 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom scroll bar css 👍 */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d8a9a9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #995858;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff8882;
+}
+
+/* Scroll to top button css  */
+
+.scroll-button a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    background: #E97373;
+    border: 1px solid white;
+    padding: 10px 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+html {
+    font-size: 100%;
+}
+
+header .sticky {
+    background: #017143;
+    padding: 1.3rem 0rem;
+}
+
+.navbar .menu-btn,
+.navbar ul .cancel-button {
+    position: absolute;
+    color: white;
+    right: 3rem;
+    top: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+header .navbar ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0.6rem 0.5rem;
+    padding-left: 18.5rem;
+    list-style: none;
+}
+
+header .navbar ul li {
+    padding: 0rem 1rem;
+}
+
+
+header .navbar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+header .navbar ul li a:hover {
+    color: #4ad39a;
+    font-size: 1.3rem;
+}
+
+/* Home section  */
+.home {
+    height: 105vh;
+    width: 100%;
+    background: url('kush.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.home .text {
+    margin: -5rem 0rem;
+    padding: 14rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    color: snow;
+}
+
+.home .text .text1 {
+    padding: 0rem 15.6rem;
+    font-size: 1.5rem;
+}
+
+.home .text .text2 {
+    padding: 0rem 2rem;
+    font-size: 2.5rem;
+}
+
+.home .text .text2 span {
+    font-size: 2.5rem;
+    color: #4ad39a;
+
+}
+
+.home .text .text3 {
+    padding: 0rem 8rem;
+    font-size: 1.4rem;
+}
+
+.home .social-media {
+    margin: -27rem 8rem;
+    padding: 14rem 12rem;
+    display: flex;
+    justify-content: right;
+}
+
+.home .social-media a {
+    color: #4ad39a;
+    padding: 0 0.6rem;
+}
+
+.home .social-media a i {
+    font-size: 1.4rem;
+}
+
+.home .social-media a i:hover {
+    transform: translate(0, -0.5rem);
+}
+
+.about-details {
+    width: 90%;
+    margin: 0rem auto;
+    background: whitesmoke;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.title p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -2rem;
+    color: sienna;
+}
+
+.about-details .content {
+    display: flex;
+    margin: 0rem auto;
+    padding: 2rem 3rem;
+    width: 70%;
+}
+
+.about-details .content .left-about {
+    margin: 2rem 0rem;
+    margin-left: -3rem;
+    width: 50%;
+}
+
+.about-details .content .left-about img {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 11rem;
+}
+
+.about-details .content .right-about {
+    margin: 5rem -5rem;
+    width: 76%;
+}
+
+.about-details .content .right-about h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.about-details .content .right-about p {
+    font-size: 2.2rem;
+    font-family: 'Square Peg', cursive;
+}
+
+.about-details .content .right-about p a {
+    color: indianred;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+
+/* Project  */
+
+.left-project {
+    margin: 4rem;
+
+}
+
+.right-project .stepbystep {
+    margin: 1rem -4rem;
+}
+
+.right-project .stepbystep button {
+
+    padding: 0.4rem 0.5rem;
+    margin: 0.3rem 0.5rem;
+    background: repeating-linear-gradient(45deg, wheat, transparent 90px);
+    border-radius: 0.4rem;
+    color: black;
+}
+
+.left-project h4 {
+    font-size: 2rem;
+}
+
+.left-project p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.right-project img {
+    width: 21rem;
+    height: 20rem;
+    border-radius: 4rem;
+}
+
+.right-project {
+    margin-right: 6rem;
+}
+
+.right-project .btn {
+    margin: 0rem 2rem;
+    padding: 0rem 1rem;
+}
+
+.right-project h5 {
+
+    text-align: center;
+    margin: 0.4rem 0rem;
+    font-size: 1.4rem;
+
+}
+
+.right-project .btn button {
+    margin: 0rem 0.4rem;
+    padding: 0.5rem;
+    border-radius: 10rem;
+    outline: none;
+    border-style: none;
+}
+
+.right-project .btn button a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.projects-details {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects-details .right-project .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #017143;
+    clip-path: circle(34rem at 100% 38rem);
+
+}
+
+/* Achievements */
+.achivements {
+    background: #f0f8ff;
+}
+
+.achivements .container {
+    width: 100%;
+    ;
+    margin: auto;
+    overflow: auto;
+
+
+}
+
+.achivements .container .photo {
+    margin: 2.2rem;
+    border: 1px solid #ccc;
+    float: left;
+    width: 27%;
+}
+
+.achivements .container .photo img {
+    width: 100%;
+    height: auto;
+}
+
+.achivements .container .photo .desc {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.achivements .content .center {
+    margin: 1rem 35rem;
+    padding: 0.7rem 0.7rem;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+.achivements .content .center:hover {
+    background-color: #4ad39a;
+    color: red;
+}
+
+/* Gallery  */
+.gallery .galleryphoto {
+
+    margin: 1rem;
+    margin-left: 1.5rem;
+
+
+}
+
+.gallery .galleryphoto img {
+    padding: 0.3rem;
+    width: 290px;
+    /* filter: grayscale(100%); */
+    transition: 1s;
+}
+
+.gallery .galleryphoto img:hover {
+    /* filter: grayscale(0); */
+    transform: scale(1.1);
+}
+
+
+/* Contact  */
+.contact {
+    background: #f0f8ff;
+    padding-top: 0.2rem;
+    color: black;
+}
+
+.contact-area {
+    display: flex;
+    margin: 1.2rem 3rem;
+
+
+}
+
+.contact-area .left-contact {
+    width: 30%;
+    margin: 0rem 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-area .left-contact .icontext {
+    position: relative;
+    display: flex;
+    padding: 0rem 1.3rem;
+}
+
+.contact-area .left-contact .icontext .icon1 {
+    height: 3rem;
+    width: 3rem;
+    background-color: #E97373;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 3rem;
+    font-size: 1.8rem;
+    margin: 1.4rem -1.2rem;
+}
+
+.contact-area .left-contact .icontext .text {
+    display: flex;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    color: black;
+    flex-direction: column;
+}
+
+.contact-area .left-contact .icontext .text p {
+    margin-top: -1.7rem;
+    font-size: 1.2rem;
+}
+
+.left-contact .media-icons {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.left-contact .media-icons a {
+    margin: 1.8rem;
+    font-size: 3.2rem;
+    color: rgb(128, 56, 56);
+}
+
+.contact-area .right-contact {
+    width: 50%;
+}
+
+.contact-area .right-contact .inputbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-area .right-contact .inputbox input,
+.contact-area .right-contact .inputbox textarea {
+    margin: 0.6rem;
+    padding: 0.3rem 0.3rem;
+    font-size: 1rem;
+    width: 60%;
+}
+
+
+
+.contact-area .right-contact .inputbox button {
+    margin: 0.6rem;
+    padding: 0.5rem 0.4rem;
+    font-size: 1.2rem;
+    width: 63%;
+    cursor: pointer;
+}
+
+/* My Footer Styling */
+footer {
+    background: #E97373;
+    padding: 0.6rem 0rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer .text span {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+}
+
+footer .text span a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+
+}
+
+footer .text span a:hover {
+    text-decoration: none;
+}
+
+
+
+/* Responsive media quiries  */
+
+@media (max-width:1190px) {
+
+    /* .gallery .galleryphoto {
+        margin: 1rem;
+        margin-left: 9rem;
+    }
+    
+    .achivements .container {
+        margin: auto 12rem;
+       
+    }
+    .achivements .container .photo {
+        width: 28%;
+    } */
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width:930px) {
+    html {
+        font-size: 67%;
+    }
+
+
+    .contact-area {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .contact-area .left-contact {
+        width: 40%;
+        margin: 0rem 26rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-area .right-contact {
+
+        margin: 0rem 26rem;
+    }
+
+    .projects-details {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-project p {
+        font-size: 2.2rem;
+        text-align: justify;
+    }
+
+    .projects-details .right-project .circle {
+        position: absolute;
+        top: 363px;
+        left: -217px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #017143;
+        clip-path: circle(49rem at 100% 54rem);
+    }
+
+    .right-project h5 {
+        text-align: center;
+        margin: 0.4rem 0;
+        font-size: 2.4rem;
+
+    }
+    .right-project h5 {
+        text-align: center;
+        margin: 0.4rem 0;
+        font-size: 2.4rem;
+        margin-left: -7rem;
+    }
+    .right-project .btn button a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.4rem;
+    }
+
+
+    .achivements .container .photo .desc {
+        padding: 0.8rem;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .gallery .galleryphoto {
+        margin: 1rem;
+        margin-left: 14.5rem;
+    }
+
+
+}
+
+@media (max-width:800px) {
+    html {
+        font-size: 57%;
+    }
+
+    .about-details .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .about-details .content .left-about img {
+        margin: auto 15rem;
+        width: 30rem;
+        height: 32rem;
+        object-fit: cover;
+        border-radius: 11rem;
+    }
+
+    .about-details .content .right-about {
+        margin: 5rem 8rem;
+    }
+
+    .about-details .content .right-about p {
+        font-size: 4rem;
+    }
+
+    .title p {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-top: -2rem;
+        color: sienna;
+    }
+
+    .right-project h5 {
+        font-size: 2.4rem;
+        margin-left: -1rem;
+    }
+
+    .right-project img {
+        width: 27rem;
+        height: 26rem;
+        border-radius: 4rem;
+        margin: 0rem 7rem;
+    }
+
+    .right-project .btn {
+        margin: 0rem 2rem;
+        padding: 0rem 7rem;
+    }
+
+    .right-project .btn button {
+        margin: 0rem 0.4rem;
+        padding: 0.5rem 1rem;
+        border-radius: 10rem;
+        outline: none;
+        border-style: none;
+    }
+
+    .right-project .btn button a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .right-project .stepbystep {
+        margin: 1rem 1rem;
+    }
+
+    .projects-details .right-project .circle {
+        position: absolute;
+        top: 376px;
+        left: -175px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #017143;
+        clip-path: circle(54rem at 100% 54rem);
+    }
+
+    .left-project p {
+        font-size: 2.2rem;
+        text-align: justify;
+    }
+
+    .achivements .container .photo {
+        margin: 2.2rem 25rem;
+        border: 1px solid #ccc;
+        float: left;
+        width: 40%;
+    }
+
+    .achivements .container .photo .desc {
+        padding: 1.8rem;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .gallery .galleryphoto {
+        margin: 1rem 6rem;
+    }
+
+    header .navbar {
+        width: 90%;
+    }
+
+    header .navbar .sound {
+        position: fixed;
+        left: -110%;
+        top: 0;
+        background: #E97373;
+        height: 100vh;
+        max-width: 40rem;
+        width: 100%;
+        padding-top: 60px;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+
+    header .active .sound {
+        left: -37rem;
+    }
+
+    header .navbar ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 2.2rem;
+        padding-left: 15rem;
+    }
+
+    header .sound a {
+        font-size: 2.3rem;
+        display: block;
+        color: rgb(142, 224, 204);
+        margin: 1rem 0;
+    }
+
+    header .sound a:hover {
+        color: #000000;
+    }
+
+    header .navbar .menu-btn,
+    ul.sound div.cancel-button {
+        display: block;
+    }
+
+    .contact-area .left-contact .icontext .text p {
+        font-size: 2.2rem;
+    }
+
+    .left-contact h2,
+    .right-contact h2 {
+        font-size: 2.5rem;
+    }
+
+    .contact-area .right-contact .inputbox input,
+    .contact-area .right-contact .inputbox textarea {
+        margin: 0.6rem;
+        padding: 0.3rem 0.3rem;
+        font-size: 1.6rem;
+        width: 60%;
+    }
+
+    .contact-area .right-contact .inputbox button {
+        margin: 0.6rem;
+        padding: 0.5rem 0.4rem;
+        font-size: 1.6rem;
+        width: 63%;
+        cursor: pointer;
+    }
+
+    footer .text span {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: white;
+    }
+
+
+}
+
+
+
+@media (max-width:688px) {
+    html {
+        font-size: 50%;
+    }
+
+    .home .text .text1 {
+        padding: 0rem 19.6rem;
+        font-size: 2.5rem;
+    }
+
+    .home .text .text2 {
+        padding: 0rem 2rem;
+        font-size: 3.5rem;
+    }
+
+    .home .text .text2 span {
+        font-size: 3.5rem;
+        color: #4ad39a;
+    }
+
+    .home .text .text3 {
+        padding: 0rem 6.4rem;
+        font-size: 2.4rem;
+    }
+
+    .home .social-media {
+        margin: -27rem 8rem;
+        padding: 14rem 14rem;
+        display: flex;
+        justify-content: right;
+    }
+
+    .home .social-media a {
+        color: #4ad39a;
+        padding: 0px 0.8rem;
+    }
+
+    .home .social-media a i {
+        font-size: 2.4rem;
+    }
+
+    .projects-details .right-project .circle {
+        position: absolute;
+        top: 376px;
+        left: -155px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #017143;
+        clip-path: circle(52rem at 100% 55rem);
+    }
+
+    .gallery .galleryphoto {
+        margin: 1rem 24rem;
+    }
+
+    .title h2 {
+        text-align: center;
+        font-size: 3.4rem;
+    }
+
+    footer .text span {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+@media (max-width : 600px) {
+    html {
+        font-size: 45%;
+    }
+
+    .title p {
+        text-align: center;
+        font-size: 2.2rem;
+        margin-top: -2rem;
+        color: sienna;
+    }
+
+    header .active .sound {
+        left: -18rem;
+    }
+
+    header .navbar ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 5.2rem;
+        padding-left: 2rem;
+    }
+
+    .projects-details .right-project .circle {
+        position: absolute;
+        top: 415px;
+        left: -127px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #017143;
+        clip-path: circle(58rem at 100% 60rem);
+    }
+
+    .home .text .text1 {
+        padding: 0rem 18.6rem;
+        font-size: 2.5rem;
+    }
+
+    .home .text .text2 {
+        padding: 0rem 0rem;
+        font-size: 3.5rem;
+    }
+
+
+    .home .text .text2 span {
+        font-size: 3.5rem;
+        color: #4ad39a;
+    }
+
+    .home .text .text3 {
+        padding: 0rem 3rem;
+        font-size: 2.6rem;
+    }
+
+    .home .social-media {
+        margin: -27rem 8rem;
+        padding: 14rem 6rem;
+        display: flex;
+        justify-content: right;
+    }
+
+
+    .home .social-media a {
+        color: #4ad39a;
+        padding: 0px 1.6rem;
+    }
+
+    .home .social-media a i {
+        font-size: 2.4rem;
+    }
+
+    .left-project h4 {
+        font-size: 3rem;
+    }
+
+    .left-project p {
+        font-size: 2.6rem;
+        text-align: justify;
+    }
+
+    .achivements .container .photo {
+        margin: 2.2rem 17rem;
+        border: 1px solid #ccc;
+        float: left;
+        width: 57%;
+    }
+
+    .achivements .container .photo .desc {
+        padding: 1.8rem;
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .contact-area .left-contact .icontext .text h3 {
+        font-size: 2.3rem;
+    }
+
+    .contact-area .right-contact .inputbox input,
+    .contact-area .right-contact .inputbox textarea {
+        margin: 1.6rem;
+        padding: 0.3rem 0.3rem;
+        font-size: 2rem;
+        width: 60%;
+    }
+
+    .contact-area .right-contact .inputbox button {
+        margin: 0.6rem 1.6rem;
+        padding: 0.5rem 0.2rem;
+        font-size: 2.2rem;
+        width: 63%;
+        cursor: pointer;
+    }
+
+
+    footer .text span {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+@media (max-width : 550px) {
+    html {
+        font-size: 35%;
+    }
+
+    .navbar .menu-btn,
+    .navbar ul .cancel-button {
+        position: absolute;
+        color: white;
+        right: 3rem;
+        top: 2rem;
+        font-size: 3rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+    }
+
+    .home .text .text1 {
+        padding: 0rem 24.6rem;
+        font-size: 3.5rem;
+    }
+
+    .home .text .text2 {
+        padding: 0rem 2rem;
+        font-size: 4.5rem;
+    }
+
+    .home .text .text2 span {
+        font-size: 4.5rem;
+        color: #4ad39a;
+    }
+
+    .home .text .text3 {
+        padding: 0rem 6.8rem;
+        font-size: 3.2rem;
+    }
+
+    .home .social-media {
+        margin: -27rem 8rem;
+        padding: 14rem 11rem;
+        display: flex;
+        justify-content: right;
+    }
+
+    .home .social-media a {
+        color: #4ad39a;
+        padding: 0 1.6rem;
+    }
+
+    .home .social-media a i {
+        font-size: 3.4rem;
+    }
+
+    .about-details .content .right-about p {
+        font-size: 6rem;
+    }
+
+    .about-details .content .left-about img {
+        margin: auto 18rem;
+    }
+
+    .right-project img {
+        width: 45rem;
+        height: 44rem;
+        border-radius: 4rem;
+        margin: 0rem 7rem;
+    }
+
+    .right-project h5 {
+        font-size: 3.4rem;
+        margin-left: -1rem;
+    }
+
+    .right-project .btn {
+        margin: 0rem 9rem;
+        padding: 0rem 7rem;
+    }
+
+    .right-project .btn button a {
+        text-decoration: none;
+        color: black;
+        font-size: 2.2rem;
+    }
+
+    .left-project h4 {
+        font-size: 3.4rem;
+    }
+
+    .left-project p {
+        font-size: 3rem;
+        text-align: justify;
+    }
+
+    .projects-details .right-project .circle {
+        position: absolute;
+        top: 302px;
+        left: -83px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #017143;
+        clip-path: circle(70rem at 100% 71rem);
+    }
+
+    .gallery .galleryphoto {
+        margin: 1rem 17rem;
+    }
+
+    .contact-area .left-contact .icontext .icon1 {
+        height: 4rem;
+        width: 4rem;
+        background-color: #E97373;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 4rem;
+        font-size: 2.8rem;
+        margin: 1.4rem -1.2rem;
+    }
+
+    .contact-area .left-contact .icontext .text {
+        display: flex;
+        margin-left: 2rem;
+        font-size: 2.3rem;
+        color: black;
+        flex-direction: column;
+        margin-top: -2rem;
+    }
+
+    .contact-area .left-contact .icontext .text h3 {
+        font-size: 3.3rem;
+    }
+
+    .contact-area .left-contact .icontext .text p {
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width : 450px) {
+    html {
+        font-size: 27%;
+    }
+
+    .navbar .menu-btn,
+    .navbar ul .cancel-button {
+        position: absolute;
+        color: white;
+        right: 3rem;
+        top: 2rem;
+        font-size: 4rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .title p {
+        text-align: center;
+        font-size: 3rem;
+        margin-top: -2rem;
+        color: sienna;
+    }
+
+    .title h2 {
+        text-align: center;
+        font-size: 4.4rem;
+    }
+
+    .home .text {
+        margin: -5rem 0rem;
+        padding: 26rem 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        color: snow;
+    }
+
+    .home .social-media {
+        margin: -27rem 8rem;
+        padding: 3rem 11rem;
+        display: flex;
+        justify-content: right;
+    }
+
+    .left-project p {
+        font-size: 4rem;
+        text-align: justify;
+    }
+
+    .right-project img {
+        width: 53rem;
+        height: 52rem;
+        border-radius: 4rem;
+        margin: 0rem 7rem;
+    }
+
+    .right-project h5 {
+        font-size: 4.4rem;
+        margin-left: -10rem;
+    }
+
+    .right-project .btn {
+        margin: 0rem 9rem;
+        padding: 0rem 4rem;
+    }
+
+    .right-project .btn button {
+        margin: 0rem 0.4rem;
+        padding: 0.5rem 2rem;
+        border-radius: 10rem;
+        outline: none;
+        border-style: none;
+    }
+
+    .right-project .btn button a {
+        text-decoration: none;
+        color: black;
+        font-size: 3.2rem;
+    }
+
+    .projects-details .right-project .circle {
+        position: absolute;
+        top: 422px;
+        left: -31px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #017143;
+        clip-path: circle(87rem at 100% 87rem);
+    }
+
+    .achivements .container .photo {
+        margin: 2.2rem 14rem;
+        border: 1px solid #ccc;
+        float: left;
+        width: 65%;
+    }
+
+    .achivements .container .photo .desc {
+        padding: 1.8rem;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    .gallery .galleryphoto {
+        margin: 1rem 8rem;
+    }
+
+    .left-contact h2,
+    .right-contact h2 {
+        font-size: 3.5rem;
+    }
+
+    .contact-area .right-contact .inputbox input,
+    .contact-area .right-contact .inputbox textarea {
+        margin: 1.6rem;
+        padding: 0.3rem 0.3rem;
+        font-size: 2.5rem;
+        width: 80%;
+    }
+
+    .contact-area .right-contact .inputbox button {
+        margin: 0.6rem 1.6rem;
+        padding: 0.5rem 0.2rem;
+        font-size: 3.2rem;
+        width: 83%;
+        cursor: pointer;
+    }
+
+    footer .text span {
+        font-size: 2.8rem;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+@media (max-width : 340px) {
+    html {
+        font-size: 20%;
+    }
+
+    .navbar .menu-btn,
+    .navbar ul .cancel-button {
+        position: absolute;
+        color: white;
+        right: 3rem;
+        top: 2rem;
+        font-size: 6rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+    }
+
+    .title h2 {
+        text-align: center;
+        font-size: 5.4rem;
+    }
+
+    .home .text .text1 {
+        padding: 0rem 36.6rem;
+        font-size: 5.5rem;
+    }
+
+    .home .text .text2 {
+        padding: 0rem 4rem;
+        font-size: 6.5rem;
+    }
+
+    .home .text .text2 span {
+        font-size: 6.5rem;
+        color: #4ad39a;
+    }
+
+    .home .text .text3 {
+        padding: 0rem 6.8rem;
+        font-size: 5.2rem;
+    }
+
+    .home .social-media {
+        margin: -27rem 8rem;
+        padding: 3rem 17rem;
+        display: flex;
+        justify-content: right;
+    }
+
+    .home .social-media a {
+        color: #4ad39a;
+        padding: 0px 2rem;
+    }
+
+    .home .social-media a i {
+        font-size: 5.4rem;
+    }
+
+    .about-details .content .left-about img {
+        margin: auto 6rem;
+        width: 56rem;
+        height: 66rem;
+        object-fit: cover;
+        border-radius: 11rem;
+    }
+
+    .about-details .content .right-about p {
+        font-size: 8rem;
+    }
+
+    .left-project h4 {
+        font-size: 6.4rem;
+    }
+
+    .left-project p {
+        font-size: 6rem;
+        text-align: justify;
+    }
+
+    .right-project img {
+        width: 70rem;
+        height: 69rem;
+        border-radius: 4rem;
+        margin: 0rem 7rem;
+    }
+
+    .right-project h5 {
+        font-size: 7.4rem;
+        margin-left: -10rem;
+    }
+
+    .right-project .btn button a {
+        text-decoration: none;
+        color: black;
+        font-size: 4.2rem;
+    }
+
+    .projects-details .right-project .circle {
+        position: absolute;
+        top: 699px;
+        left: -45px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #017143;
+        clip-path: circle(92rem at 100% 65rem);
+    }
+
+    .achivements .container .photo {
+        margin: 2.2rem 14rem;
+        border: 1px solid #ccc;
+        float: left;
+        width: 67%;
+    }
+
+    .achivements .container .photo .desc {
+        padding: 1.8rem;
+        text-align: center;
+        font-size: 4.5rem;
+    }
+
+    .left-contact h2,
+    .right-contact h2 {
+        font-size: 4.5rem;
+    }
+
+    .contact-area .left-contact .icontext .icon1 {
+        height: 7rem;
+        width: 7rem;
+        background-color: #E97373;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 7rem;
+        font-size: 4.8rem;
+        margin: 3.4rem -1.2rem;
+    }
+
+    .contact-area .left-contact .icontext .text h3 {
+        font-size: 5.3rem;
+    }
+
+    .contact-area .left-contact .icontext .text p {
+        font-size: 5rem;
+    }
+
+    .contact-area .right-contact .inputbox input,
+    .contact-area .right-contact .inputbox textarea {
+        margin: 1.6rem;
+        padding: 0.3rem 0.3rem;
+        font-size: 3.5rem;
+        width: 90%;
+    }
+
+    .contact-area .right-contact .inputbox button {
+        margin: 0.6rem 1.6rem;
+        padding: 0.5rem 0.2rem;
+        font-size: 4.2rem;
+        width: 92%;
+        cursor: pointer;
+    }
+
+    footer .text span {
+        font-size: 3.3rem;
+        font-weight: 400;
+        color: white;
+    }
+}
