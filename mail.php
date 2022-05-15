@@ -2,8 +2,8 @@
 //get data from form  
 $name = $_POST['name'];
 $email= $_POST['email'];
-$message= $_POST['message'];
 $number= $_POST['phone']; 
+$message= $_POST['message'];
 $to = "panthikush@mail.com";
 $subject = "Mail From Kush Panthi website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Phone Nuumber =" . $number . 
