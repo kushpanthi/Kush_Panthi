@@ -223,6 +223,7 @@ header .navbar ul li a:hover {
     background: repeating-linear-gradient(45deg, wheat, transparent 90px);
     border-radius: 0.4rem;
     color: black;
+    cursor:pointer;
 }
 
 .left-project h4 {
